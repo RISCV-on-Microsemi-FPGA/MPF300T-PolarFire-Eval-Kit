@@ -1,0 +1,48 @@
+#===========================================================
+# Created by Microsemi SmartDesign Tue Jun 13 14:30:50 2017
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+
+
+
+#-----------------------------------------------------------
+# Secondary subsystems.  To test this subsystem, uncomment the following code.
+#-----------------------------------------------------------
+# memmap CoreUARTapb_0 0x70001000;
+# memmap CoreGPIO_0 0x70002000;
+# memmap CoreTimer_0 0x70003000;
+# memmap CoreTimer_1 0x70004000;
+# memmap CoreGPIO_OUT 0x70005000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+
+# # # # # 
+
+#-----------------------------------------------------------
+# Secondary subsystems.  To test this subsystem, uncomment the following code.
+#-----------------------------------------------------------
+# memmap SRAM_0 0x80000000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+
+# 

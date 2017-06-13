@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release PolarFire v1.1SP1 (Version 12.100.9.13)
+
+Date      :  Tue Jun 13 10:29:19 2017
+Project   :  C:\Users\ciaran.lappin\Desktop\CoreRISCV_BootStrap\Design\G5_CoreRISCV_AXI4_BaseDesign_Bassam
+Component :  SRAM
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/ciaran.lappin/Desktop/CoreRISCV_BootStrap/Design/G5_CoreRISCV_AXI4_BaseDesign_Bassam/component/work/SRAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_AHBLSramIf.v
+    C:/Users/ciaran.lappin/Desktop/CoreRISCV_BootStrap/Design/G5_CoreRISCV_AXI4_BaseDesign_Bassam/component/work/SRAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_PF.v
+    C:/Users/ciaran.lappin/Desktop/CoreRISCV_BootStrap/Design/G5_CoreRISCV_AXI4_BaseDesign_Bassam/component/work/SRAM/PF_TPSRAM_AHB_AXI_0/SRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+    C:/Users/ciaran.lappin/Desktop/CoreRISCV_BootStrap/Design/G5_CoreRISCV_AXI4_BaseDesign_Bassam/component/work/SRAM/SRAM.v
+

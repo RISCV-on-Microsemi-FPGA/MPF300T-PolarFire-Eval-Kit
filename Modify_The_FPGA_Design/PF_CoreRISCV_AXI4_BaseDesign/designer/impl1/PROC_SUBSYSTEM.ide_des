@@ -1,0 +1,13 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\ciaran.lappin\Documents\Boards\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign\designer\impl1\PROC_SUBSYSTEM.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign\constraint\PROC_SUBSYSTEM_derived_constraints.sdc;sdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign\constraint\user.sdc;sdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign\constraint\io\user.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign\constraint\fp\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign\synthesis\PROC_SUBSYSTEM_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

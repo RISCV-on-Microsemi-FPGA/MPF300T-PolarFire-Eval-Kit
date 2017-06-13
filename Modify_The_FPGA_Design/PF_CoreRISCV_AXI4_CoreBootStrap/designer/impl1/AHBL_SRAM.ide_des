@@ -1,0 +1,8 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\ciaran.lappin\Desktop\fromBassam\Successful\Test\G5_CoreRISCV_AXI4_BaseDesign_Bassam\G5_CoreRISCV_AXI4_BaseDesign_Bassam\designer\impl1\AHBL_SRAM.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,5 @@
+set_io -port_name REF_CLK_0  \
+    -pin_name AH24                \
+    -fixed true                   \
+    -io_std LVCMOS18              \
+    -DIRECTION INPUT

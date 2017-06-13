@@ -1,0 +1,58 @@
+
+****************
+Macro Parameters
+****************
+
+Name                            : LSRAM_0_PF_URAM_0_PF_URAM
+Family                          : PolarFire
+Output Format                   : VERILOG
+Type                            : URAM
+Block Enable Polarity           : Active High
+Reset Polarity                  : None
+Read Clock Edge                 : Rising
+R_ADDR Sync-reset Polarity      : None
+R_DATA Sync-reset Polarity      : None
+R_ADDR Async-reset Polarity     : None
+R_DATA Async-reset Polarity     : None
+R_ADDR Enable Polarity          : None
+R_DATA Enable Polarity          : None
+Write Clock Edge                : Rising
+Write Enable Polarity           : Active High
+Write Depth                     : 2048
+Write Width                     : 40
+Read Depth                      : 2048
+Read Width                      : 40
+R_ADDR Pipeline                 : Register
+R_DATA Pipeline                 : Latch
+Portname R_DATA                 : R_DATA
+Portname R_CLK                  : R_CLK
+Portname R_ADDR_SRST            : R_ADDR_SRST_N
+Portname R_DATA_SRST            : R_DATA_SRST_N
+Portname R_ADDR_ARST            : R_ADDR_ARST_N
+Portname R_DATA_ARST            : R_DATA_ARST_N
+Portname R_ADDR_EN              : R_ADDR_EN
+Portname R_DATA_EN              : R_DATA_EN
+Portname BLK_EN                 : BLK_EN
+Portname R_ADDR                 : R_ADDR
+Portname Write Clock            : W_CLK
+Portname Write Address          : W_ADDR
+Portname Write Data             : 
+Portname Write Enable           : W_EN
+Portname Single Clock           : CLK
+Portname Single Async-reset     : 
+LPM_HINT                        : 
+Device                          : 300
+RAM Type                        : Micro SRAM
+Optimized for                   : Speed
+Clocks                          : Single Read/Write Clock
+Initialize RAM                  : False
+Lock access                     : Off
+ACCESS_BUSY                     : Disabled
+
+Cascade Configuration: 
+     Read  Port configuration       : 64x12
+     Write Port configuration       : 64x12
+     Number of blocks depth wise: 32
+     Number of blocks width wise: 4
+
+Wrote Verilog netlist to C:\Users\ciaran.lappin\Desktop\CoreRISCV_BootStrap\Design\G5_CoreRISCV_AXI4_BaseDesign_Bassam\component\work\LSRAM_0\PF_URAM_0\\LSRAM_0_PF_URAM_0_PF_URAM.v.
