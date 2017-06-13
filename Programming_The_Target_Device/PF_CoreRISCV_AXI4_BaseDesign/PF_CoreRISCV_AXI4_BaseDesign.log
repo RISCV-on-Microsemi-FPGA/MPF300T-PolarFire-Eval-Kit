@@ -1,0 +1,41 @@
+Software Version: 12.100.8.13
+creating folder: C:\Users\ciaran.lappin\Desktop\Github\PF_MPF300T_ES_Advanced_Devlopment_Kit -
+Copy\Programming_The_Target_Device\PF_CoreRISCV_AXI4_BaseDesign
+Embedded FlashPro5 programmer detected.
+programmer 'E2001EJ7BN' : FlashPro5
+Created new project 'C:\Users\ciaran.lappin\Desktop\Github\PF_MPF300T_ES_Advanced_Devlopment_Kit
+-
+Copy\Programming_The_Target_Device\PF_CoreRISCV_AXI4_BaseDesign\PF_CoreRISCV_AXI4_BaseDesign.pr\
+o'
+STAPL file 'C:\Users\ciaran.lappin\Desktop\Github\PF_MPF300T_ES_Advanced_Devlopment_Kit -
+Copy\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SU\
+BSYSTEM_BaseDesign.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 87B8;  ALG_VERSION : 1
+programmer 'E2001EJ7BN' : Scan Chain...
+Warning: programmer 'E2001EJ7BN' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E2001EJ7BN' : Scan Chain PASSED.
+programmer 'E2001EJ7BN' : Executing action PROGRAM
+programmer 'E2001EJ7BN' : EXPORT ISC_ENABLE_RESULT[32] = 00000000
+programmer 'E2001EJ7BN' : EXPORT CRCERR[1] = 0
+programmer 'E2001EJ7BN' : Programming FPGA Array...
+programmer 'E2001EJ7BN' : EXPORT BITS component bitstream digest[256] =
+e628346f15f57b0bb57f2a9a7ba39a841126caa067b4873fa03d218c2fd0001c
+programmer 'E2001EJ7BN' : EXPORT Fabric component bitstream digest[256] =
+750b82a55964d8032d339a08bbc622d39d00b1affc12fd7332811acedc290ea8
+programmer 'E2001EJ7BN' : EXPORT EOB component bitstream digest[256] =
+61c2d996cab65230eab47227840cf5d71607eba15b562b059b7057c6e5eb868f
+programmer 'E2001EJ7BN' :
+===================================================================================
+programmer 'E2001EJ7BN' : EXPORT DSN[128] = 498d0a743b48b1fed16f35d4a861831d
+programmer 'E2001EJ7BN' :
+===================================================================================
+programmer 'E2001EJ7BN' : Finished: Tue Jun 13 16:25:53 2017 (Elapsed time 00:01:40)
+programmer 'E2001EJ7BN' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+creating folder: C:\Users\ciaran.lappin\Desktop\Github\PF_MPF300T_ES_Advanced_Devlopment_Kit -
+Copy\Programming_The_Target_Device\PF_CoreRISCV_AXI4_BaseDesign\projectData
+Project saved.
+Project closed.
