@@ -1,0 +1,28 @@
+# Microsemi Physical design constraints file
+
+# Version: PolarFire EAP4-SPA 12.100.8.13
+
+# Design Name: PROC_SUBSYSTEM 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFire , Die: MPF300T_ES , Package: FCG1152 , Speed grade: STD 
+
+# Date generated: Tue May 16 11:11:20 2017 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name PF_CCC_0/pll_inst_0 -fixed true -x 2461 -y 377

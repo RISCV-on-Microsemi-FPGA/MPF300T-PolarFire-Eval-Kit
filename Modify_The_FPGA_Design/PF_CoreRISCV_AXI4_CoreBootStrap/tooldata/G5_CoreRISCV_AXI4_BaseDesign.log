@@ -1,0 +1,16 @@
+Project Name: G5_CoreRISCV_AXI4_BaseDesign
+Location: C:\Users\ciaran.lappin\Documents\Boards\PolarFire\Projects\RISCV\G5_CoreRISCV_AXI4\G5_CoreRISCV_AXI4_BaseDesign
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPF300T_ES-FCG1152E
+Family         : PolarFire
+Die            : MPF300T_ES
+Package        : FCG1152
+Speed          : STD
+Core Voltage   : 1.0
+Range          : EXT

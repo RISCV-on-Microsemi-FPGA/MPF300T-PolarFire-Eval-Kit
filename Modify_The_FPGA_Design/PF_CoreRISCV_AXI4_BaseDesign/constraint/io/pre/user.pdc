@@ -1,0 +1,184 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: PolarFire EAP4-SPA 12.100.8.13
+
+# Family: PolarFire , Die: MPF300T_ES , Package: FCG1152
+
+# Date generated: Tue May 16 11:18:45 2017 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name CNT  \
+    -pin_name H21      \
+    -fixed true        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name CNT_0  \
+    -pin_name H22        \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name CNT_1  \
+    -pin_name F23        \
+    -fixed true          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name FLASH_SCK  \
+    -pin_name H19            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name FLASH_SDI  \
+    -pin_name C18            \
+    -fixed true              \
+    -DIRECTION INPUT
+
+
+set_io -port_name FLASH_SDO  \
+    -pin_name G19            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name FLASH_SS  \
+    -pin_name A20           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {GPIO_IN[0]}  \
+    -pin_name B21               \
+    -fixed true                 \
+    -DIRECTION INPUT
+
+
+set_io -port_name {GPIO_IN[1]}  \
+    -pin_name G20               \
+    -fixed true                 \
+    -DIRECTION INPUT
+
+
+set_io -port_name {GPIO_IN[2]}  \
+    -pin_name F24               \
+    -fixed true                 \
+    -DIRECTION INPUT
+
+
+set_io -port_name {GPIO_IN[3]}  \
+    -pin_name F25               \
+    -fixed true                 \
+    -DIRECTION INPUT
+
+
+set_io -port_name {GPIO_OUT[0]}  \
+    -pin_name D25                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {GPIO_OUT[1]}  \
+    -pin_name C26                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {GPIO_OUT[2]}  \
+    -pin_name B26                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {GPIO_OUT[3]}  \
+    -pin_name F22                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name RX  \
+    -pin_name H18     \
+    -fixed true       \
+    -DIRECTION INPUT
+
+
+set_io -port_name SW_DEBUG_MODE  \
+    -pin_name H23                \
+    -fixed true                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name TX   \
+    -pin_name G17      \
+    -fixed true        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name USER_RST  \
+    -pin_name K22           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
+set_io -port_name TCK  \
+    -pin_name J10      \
+    -DIRECTION INPUT
+
+
+set_io -port_name TDI  \
+    -pin_name K11      \
+    -DIRECTION INPUT
+
+
+set_io -port_name TDO  \
+    -pin_name K9       \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name TMS  \
+    -pin_name J9       \
+    -DIRECTION INPUT
+
+
+set_io -port_name TRSTB  \
+    -pin_name N14        \
+    -DIRECTION INPUT
+
+
