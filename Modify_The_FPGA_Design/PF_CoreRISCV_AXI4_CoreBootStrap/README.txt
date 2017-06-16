@@ -13,6 +13,7 @@ the CoreRISCV_AXI4 as its soft processor.
 0x70003000: CoreTimer0
 0x70004000: CoreTimer1
 0x70005000: CoreGPIO outputs
+0x70006000: CoreSPI
 
 0x80000000: LSRAM
 
