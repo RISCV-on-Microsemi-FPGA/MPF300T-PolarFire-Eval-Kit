@@ -9,22 +9,21 @@ The FPGA design includes the following features:
 * RISC-V debug block allowing on-target debug using openocd/GDB
 * On-chip NVM used as boot/execution memory
 * LSRAM for code/data
-* UART, GPIO, Timers
+* User peripherals such as GPIO, Timers, UART
 
 The memory map for each design is available within each Libero project.
 
 ### Target Hardware
 Details of the features of PolarFire Evaluation kit are available [here](https://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/polarfire/polarfire-eval-kit).
 
-### FlashPro Projects
-This includes two FlashPro projects that can be used to program the development board's FPGA. A stand alone installer for FlashPro is available from the following [page](
-http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro#software). Please note that you only need to install this standalone version of FlashPro if you do not have the Libero tools installed.
+### Programming The Target Device
+The Programming_The_Target_Device folder includes FlashPro Express projects that can be used to program the development boards FPGA. A standalone installer for FlashPro Express is available [here](http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro#software). Please note that you only need to install this standalone version of FlashPro Express if you do not have Libero tools installed.
 
-* The first FlashPro project, PF_CoreRISCV_AXI4_BaseDesign, allows software debugging using FlashPro5. The same JTAG port is used for programming the FPGA and debugging RISC-V software.
-* The first FlashPro project, PF_CoreRISCV_AXI4_CoreBootStrap, allows software debugging using FlashPro5. This also allow for booting from SPI Flash.The same JTAG port is used for programming the FPGA and debugging RISC-V software.
+* PF_CoreRISCV_AXI4_BaseDesign, allows software debugging using FlashPro5. The same JTAG port is used for programming the FPGA and debugging RISC-V software.
+* PF_CoreRISCV_AXI4_CoreBootStrap, allows software debugging using FlashPro5. This also allow for booting from SPI Flash.The same JTAG port is used for programming the FPGA and debugging RISC-V software.
 
-### Libero
-Libero is Microsemi's FPGA design tool. You will need this tool if you wish to modify the example FPGA design. Libero is available from the following [page](http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#downloads).
+### Modify The FPGA Design 
+The Modify_The_FPGA_Design folder contains Libero example designs. Libero is Microsemi's FPGA design tool. You will need this tool if you wish to modify the example FPGA designs. Libero is available from [here](https://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#downloads).
 
 ### Example Software Projects
-A set of self-contained example software projects are available for this design from the [riscv-junk-drawer](https://github.com/RISCV-on-Microsemi-FPGA/riscv-junk-drawer/tree/master/examples).
+A set of RISC-V example software projects are also available for these designs from the SoftConsole [page](https://github.com/RISCV-on-Microsemi-FPGA/SoftConsole).
