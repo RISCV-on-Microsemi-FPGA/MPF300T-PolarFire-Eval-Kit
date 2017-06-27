@@ -1,0 +1,92 @@
+# Synopsys Constraint Checker, version map201609actrcp1, Build 003R, built Jan 11 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Jun 27 15:50:16 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "RISCV_TOP"
+Constraint File(s):      "D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\designer\RISCV_TOP\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 2 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                      Ending                                        |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                        uj_jtag_85|un1_duttck_inferred_clock          |     10.000           |     No paths         |     10.000           |     No paths                         
+System                                        COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     |     10.000           |     No paths         |     10.000           |     No paths                         
+System                                        PF_CCC_0/pll_inst_0/OUT0                      |     12.048           |     No paths         |     No paths         |     No paths                         
+CLK_50MHZ                                     CLK_50MHZ                                     |     20.000           |     No paths         |     No paths         |     No paths                         
+uj_jtag_85|un1_duttck_inferred_clock          uj_jtag_85|un1_duttck_inferred_clock          |     10.000           |     10.000           |     5.000            |     5.000                            
+uj_jtag_85|un1_duttck_inferred_clock          COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+uj_jtag_85|un1_duttck_inferred_clock          PF_CCC_0/pll_inst_0/OUT0                      |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     System                                        |     10.000           |     No paths         |     No paths         |     No paths                         
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     uj_jtag_85|un1_duttck_inferred_clock          |     No paths         |     Diff grp         |     No paths         |     No paths                         
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     |     10.000           |     No paths         |     5.000            |     No paths                         
+PF_CCC_0/pll_inst_0/OUT0                      System                                        |     12.048           |     No paths         |     No paths         |     No paths                         
+PF_CCC_0/pll_inst_0/OUT0                      CLK_50MHZ                                     |     0.318            |     No paths         |     No paths         |     No paths                         
+PF_CCC_0/pll_inst_0/OUT0                      uj_jtag_85|un1_duttck_inferred_clock          |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+PF_CCC_0/pll_inst_0/OUT0                      PF_CCC_0/pll_inst_0/OUT0                      |     12.048           |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+@W|Paths from clock (PF_CCC_0/pll_inst_0/OUT0:r) to clock (CLK_50MHZ:r) are overconstrained because the required time of 0.32 ns is too small.  
+
+
+Unconstrained Start/End Points
+******************************
+
+p:CLK_LED4
+p:FF_NONTIMED_ENTRY
+p:FF_TIMED_ENTRY
+p:TCK
+p:TDI
+p:TDO
+p:TMS
+p:TRSTB
+p:UART_RX
+p:UART_TX
+p:USER_RESET
+p:USR_BUSY
+p:USR_CMD_ERROR
+p:USR_RDVLD
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

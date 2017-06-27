@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>PROC_SUBSYSTEM</header>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREJTAGDEBUG_0:UDRCAP_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:UDRCAP_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREJTAGDEBUG_0:UDRSH_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:UDRSH_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREJTAGDEBUG_0:UDRUPD_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:UDRUPD_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREJTAGDEBUG_0:URSTB_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:URSTB_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREJTAGDEBUG_0:UDRCK_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:UDRCK_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREJTAGDEBUG_0:UTDI_OUT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:UTDI_OUT</crossprobe>
+  </drc>
+  <drc>
+    <status>\\idm\captures\pc\12_100_9_11_juno\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin COREJTAGDEBUG_0:UIREG_OUT[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PROC_SUBSYSTEM/pins/COREJTAGDEBUG_0:UIREG_OUT</crossprobe>
+  </drc>
+</drcreport>

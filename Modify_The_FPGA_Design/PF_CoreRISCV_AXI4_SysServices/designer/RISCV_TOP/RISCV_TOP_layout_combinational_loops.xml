@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Combinational Loop Report</title>
+<text>SmartTime Version 12.100.9.13</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release  (Version 12.100.9.13)</text>
+<text>Date: Tue Jun 27 16:02:43 2017
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>RISCV_TOP</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPF300TS_ES</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Pre-Layout</cell>
+</row>
+<row>
+ <cell>Scenario for Timing Analysis</cell>
+ <cell>place_and_route</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<text></text>
+<text>No combinational loops were detected in the design.</text>
+</doc>

@@ -1,0 +1,12 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "D:\PolarFire\RISCV\Polarfire_Riscv_designs\PF_HSB_RV32_FP_juno6\designer\impl1\RISCV_TOP.adb"
+LIST SOURCE_FILES
+VALUE "D:\PolarFire\RISCV\Polarfire_Riscv_designs\PF_HSB_RV32_FP_juno6\constraint\io\user.pdc;pdc"
+VALUE "D:\PolarFire\RISCV\Polarfire_Riscv_designs\PF_HSB_RV32_FP_juno6\constraint\fp\user.pdc;pdc"
+VALUE "D:\PolarFire\RISCV\Polarfire_Riscv_designs\PF_HSB_RV32_FP_juno6\constraint\RISCV_TOP_derived_constraints.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "D:\PolarFire\RISCV\Polarfire_Riscv_designs\PF_HSB_RV32_FP_juno6\synthesis\RISCV_TOP_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,4 @@
+CKID0001:@|S:PF_CCC_0.pll_inst_0@|E:reset_synchronizer_1.sync_deasert_reg[1]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:PROC_SUBSYSTEM_0.COREJTAGDEBUG_0.genblk1.UJ_JTAG_0.un1_duttck@|E:PROC_SUBSYSTEM_0.CORERISCV_AXI4_0.debugBusRespFifo.genblk2.rdAddrReg_r[1]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:PROC_SUBSYSTEM_0.COREJTAGDEBUG_0.genblk1.UJTAG_0@|E:PROC_SUBSYSTEM_0.COREJTAGDEBUG_0.genblk1.UJ_JTAG_0.pauselow@|F:@syn_sample_clock_path1==CKID0003@|M:ClockId0003 
+CKID0004:@|S:CLK_50MHZ@|E:PF_CCC_0.pll_inst_0@|F:@syn_sample_clock_path1==CKID0004@|M:ClockId0004 

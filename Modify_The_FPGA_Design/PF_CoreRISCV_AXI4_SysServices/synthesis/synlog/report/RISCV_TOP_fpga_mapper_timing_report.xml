@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synlog\RISCV_TOP_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CLK_50MHZ</data>
+<data>50.0 MHz</data>
+<data>390.2 MHz</data>
+<data>17.437</data>
+</row>
+<row>
+<data>COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>184.5 MHz</data>
+<data>2.290</data>
+</row>
+<row>
+<data>PF_CCC_0/pll_inst_0/OUT0</data>
+<data>83.0 MHz</data>
+<data>107.1 MHz</data>
+<data>2.710</data>
+</row>
+<row>
+<data>uj_jtag_85|un1_duttck_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>124.8 MHz</data>
+<data>0.995</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>195.5 MHz</data>
+<data>4.885</data>
+</row>
+</report_table>

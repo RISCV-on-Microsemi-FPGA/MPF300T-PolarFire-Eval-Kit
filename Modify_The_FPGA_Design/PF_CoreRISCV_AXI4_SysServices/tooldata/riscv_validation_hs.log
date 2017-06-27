@@ -1,0 +1,16 @@
+Project Name: riscv_validation_hs
+Location: C:\riscv-validation\riscv_validation_hs
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPF300TS_ES-1FCG1152E
+Family         : PolarFire
+Die            : MPF300TS_ES
+Package        : FCG1152
+Speed          : -1
+Core Voltage   : 1.0
+Range          : EXT

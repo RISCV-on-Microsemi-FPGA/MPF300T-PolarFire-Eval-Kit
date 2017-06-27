@@ -1,0 +1,28 @@
+# Microsemi Physical design constraints file
+
+# Version: PolarFire EAP4-SPA 12.100.8.6
+
+# Design Name: RISCV_TOP 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFire , Die: MPF300TS_ES , Package: FCG1152 , Speed grade: STD 
+
+# Date generated: Thu Mar 02 14:00:59 2017 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name PF_CCC_0/pll_inst_0 -fixed true -x 2461 -y 377

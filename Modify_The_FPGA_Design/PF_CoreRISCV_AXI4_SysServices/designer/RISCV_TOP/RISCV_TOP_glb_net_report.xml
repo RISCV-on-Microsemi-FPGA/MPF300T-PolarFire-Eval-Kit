@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release PolarFire v1.1SP1 (Version 12.100.9.13)</text>
+<text>Date: Tue Jun 27 16:11:42 2017
+</text>
+<section>
+<name>Global Nets Information</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> GB Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell></cell>
+ <cell>(1152, 162)</cell>
+ <cell>PF_CCC_0/clkint_0/U0_Y</cell>
+ <cell>5049</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell></cell>
+ <cell>(1154, 162)</cell>
+ <cell>reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_Y</cell>
+ <cell>1561</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell></cell>
+ <cell>(1164, 162)</cell>
+ <cell>PF_CCC_0/clkint_0/U0_gbs_1</cell>
+ <cell>428</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell></cell>
+ <cell>(1156, 162)</cell>
+ <cell>PROC_SUBSYSTEM_0/COREJTAGDEBUG_0/tck_clkint/U0_Y</cell>
+ <cell>192</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell></cell>
+ <cell>(1166, 162)</cell>
+ <cell>reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1</cell>
+ <cell>29</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell></cell>
+ <cell>(1167, 162)</cell>
+ <cell>INBUF_0_RNI3ULF/U0_Y</cell>
+ <cell>27</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell></cell>
+ <cell>(1153, 162)</cell>
+ <cell>PROC_SUBSYSTEM_0/COREJTAGDEBUG_0/genblk1.udrck_clkint/U0_Y</cell>
+ <cell>17</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CLK_50MHZ</cell>
+ <cell>E25</cell>
+ <cell>HSIO63PB6/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0</cell>
+ <cell>INBUF_0/U_IOIN:Y</cell>
+ <cell>(2256, 1)</cell>
+ <cell></cell>
+ <cell>INBUF_0_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>2</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>PF_CCC_0/clkint_0_1:Y</cell>
+ <cell>(2448, 164)</cell>
+ <cell></cell>
+ <cell>PF_CCC_0/clkint_0_NET</cell>
+ <cell>HARDWIRED</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>reset_synchronizer_1/sync_asert_reg[1]:Q</cell>
+ <cell>(896, 133)</cell>
+ <cell></cell>
+ <cell>reset_synchronizer_1/sync_asert_reg[1]</cell>
+ <cell>ROUTED</cell>
+ <cell>734</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>PF_CCC_0/clkint_0_1:Y</cell>
+ <cell>(2448, 164)</cell>
+ <cell></cell>
+ <cell>PF_CCC_0/clkint_0_NET</cell>
+ <cell>HARDWIRED</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>PROC_SUBSYSTEM_0/COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/un1_duttck_inferred_clock_RNI0LJ9:Y</cell>
+ <cell>(506, 12)</cell>
+ <cell></cell>
+ <cell>PROC_SUBSYSTEM_0/COREJTAGDEBUG_0/un1_duttck_i_0</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>reset_synchronizer_1/sync_asert_reg[1]:Q</cell>
+ <cell>(896, 133)</cell>
+ <cell></cell>
+ <cell>reset_synchronizer_1/sync_asert_reg[1]</cell>
+ <cell>ROUTED</cell>
+ <cell>734</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>PROC_SUBSYSTEM_0/COREJTAGDEBUG_0/genblk1.udrck_clkint_1:Y</cell>
+ <cell>(577, 5)</cell>
+ <cell></cell>
+ <cell>PROC_SUBSYSTEM_0/COREJTAGDEBUG_0/genblk1.udrck_clkint_NET</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Local Clock Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+</doc>

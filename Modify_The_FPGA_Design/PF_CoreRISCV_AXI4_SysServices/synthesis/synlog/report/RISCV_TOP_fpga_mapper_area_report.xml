@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synlog\report\RISCV_TOP_fpga_mapper_resourceusage.rpt</data>
+<title>Resource Usage</title>
+</report_link>
+<report_link name="Hierarchical Area report">
+<data>D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synlog\report\RISCV_TOP_fpga_mapper_hier_area_report.xml</data>
+<title>Hierarchical Area Report</title>
+</report_link>
+<parameter tooltip="Total Carry Cells used" name="Carry Cells">
+<data>829</data>
+</parameter>
+<parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
+<data>4528</data>
+</parameter>
+<parameter tcl_name="dsp_used" tooltip="Total DSP Blocks (MACC_PA) used" name="DSP Blocks (MACC_PA)">
+<data>2</data>
+</parameter>
+<parameter tooltip="Total I/O Cells used" name="I/O Cells">
+<data>10</data>
+</parameter>
+<parameter tooltip="Total Global Clock Buffers used" name="Global Clock Buffers">
+<data>5</data>
+</parameter>
+<parameter tcl_name="v_ram" tooltip="Total RAM1K20 used" name="RAM1K20">
+<data>522</data>
+</parameter>
+<parameter tcl_name="v_ram" tooltip="Total RAM64x12 used" name="RAM64x12">
+<data>89</data>
+</parameter>
+<parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
+<data>9465</data>
+</parameter>
+</report_table>
