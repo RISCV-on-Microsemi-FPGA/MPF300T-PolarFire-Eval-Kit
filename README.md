@@ -6,13 +6,13 @@ This project contains Libero projects containing an FPGA design including a RISC
 ### Design Features
 The FPGA designs and their features are described below:
 
-####PF_CoreRISCV_AXI4_BaseDesign
+#### PF_CoreRISCV_AXI4_BaseDesign
 * CoreRISCV_AXI4 RV32IM RISC-V processor
 * RISC-V debug block allowing on-target debug using openocd/GDB
 * LSRAM for code/data
 * User peripherals such as GPIO, Timers, UART
 
-####PF_CoreRISCV_AXI4_SysServices
+#### PF_CoreRISCV_AXI4_SysServices
 * CoreRISCV_AXI4 RV32IM RISC-V processor
 * RISC-V debug block allowing on-target debug using openocd/GDB
 * LSRAM for code/data
