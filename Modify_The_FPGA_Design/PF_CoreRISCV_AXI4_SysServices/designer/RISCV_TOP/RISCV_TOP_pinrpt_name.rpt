@@ -1,0 +1,28 @@
+*****************************************************************
+Pin Report - Date: Tue Jun 27 16:21:23 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: PolarFire v1.1SP1
+Version: 12.100.9.13
+Design Name: RISCV_TOP
+Family: PolarFire
+Die: MPF300TS_ES
+Package: FCG1152
+*****************************************************************
+
+Port              |Pin |Fixed |Function                                                |Bank     |I/O Std   |Direction          |User I/O Lock Down             |I/O state in Flash*Freeze mode |Clamp Diode   |Resistor Pull   |Schmitt Trigger |Vcm Input Range    |On Die Termination |Odt Value (Ohm) |Slew              |Output Drive (mA) |Impedance (ohm)  |Output Load (pF) |
+------------------|----|------|--------------------------------------------------------|---------|----------|-------------------|-------------------------------|-------------------------------|--------------|----------------|----------------|-------------------|-------------------|----------------|------------------|------------------|-----------------|-----------------|
+CLK_50MHZ          E25  Yes    HSIO63PB6/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0  Bank6     LVCMOS18   Input               No                              LAST_VALUE                      ON             None             OFF              ---                 OFF                 60               ---                ---                ---               ---               
+CLK_LED4           F22  Yes    HSIO64NB6                                                Bank6     LVCMOS18   Output              No                              LAST_VALUE                      ON             ---              ---              ---                 ---                 ---              OFF                8                  ---               5                 
+FF_NONTIMED_ENTRY  D21  Yes    HSIO48NB6                                                Bank6     LVCMOS18   Input               No                              LAST_VALUE                      ON             None             OFF              ---                 OFF                 60               ---                ---                ---               ---               
+FF_TIMED_ENTRY     B21  Yes    HSIO49NB6                                                Bank6     LVCMOS18   Input               No                              LAST_VALUE                      ON             None             OFF              ---                 OFF                 60               ---                ---                ---               ---               
+TCK                J10  Fixed  TCK                                                      ---       
+TDI                K11  Fixed  TDI                                                      ---       
+TDO                K9   Fixed  TDO                                                      ---       
+TMS                J9   Fixed  TMS                                                      ---       
+TRSTB              N14  Fixed  TRSTB                                                    ---       
+UART_RX            H18  Yes    HSIO37PB6                                                Bank6     LVCMOS18   Input               No                              LAST_VALUE                      ON             None             OFF              ---                 OFF                 60               ---                ---                ---               ---               
+UART_TX            G17  Yes    HSIO37NB6                                                Bank6     LVCMOS18   Output              No                              LAST_VALUE                      ON             ---              ---              ---                 ---                 ---              OFF                8                  ---               5                 
+USER_RESET         K22  Yes    HSIO55PB6                                                Bank6     LVCMOS18   Input               No                              LAST_VALUE                      ON             None             OFF              ---                 OFF                 60               ---                ---                ---               ---               
+USR_BUSY           B26  Yes    HSIO71NB6                                                Bank6     LVCMOS18   Output              No                              LAST_VALUE                      ON             ---              ---              ---                 ---                 ---              OFF                8                  ---               5                 
+USR_CMD_ERROR      C26  Yes    HSIO70NB6                                                Bank6     LVCMOS18   Output              No                              LAST_VALUE                      ON             ---              ---              ---                 ---                 ---              OFF                8                  ---               5                 
+USR_RDVLD          D25  Yes    HSIO70PB6/CCC_SE_PLL1_OUT1                               Bank6     LVCMOS18   Output              No                              LAST_VALUE                      ON             ---              ---              ---                 ---                 ---              OFF                8                  ---               5                 

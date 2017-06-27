@@ -1,0 +1,32 @@
+# Synopsys Constraint Checker(syntax only), version map201609actrcp1, Build 003R, built Jan 11 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Jun 27 15:50:06 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "RISCV_TOP"
+Constraint File(s):      "D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\designer\RISCV_TOP\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                         Requested     Requested     Clock                          Clock                   Clock
+Clock                                         Frequency     Period        Type                           Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------------------
+CLK_50MHZ                                     50.0 MHz      20.000        declared                       default_clkgroup        28   
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     100.0 MHz     10.000        inferred                       Inferred_clkgroup_1     16   
+PF_CCC_0/pll_inst_0/OUT0                      83.0 MHz      12.048        generated (from CLK_50MHZ)     default_clkgroup        7172 
+System                                        100.0 MHz     10.000        system                         system_clkgroup         0    
+uj_jtag_85|un1_duttck_inferred_clock          100.0 MHz     10.000        inferred                       Inferred_clkgroup_0     206  
+======================================================================================================================================

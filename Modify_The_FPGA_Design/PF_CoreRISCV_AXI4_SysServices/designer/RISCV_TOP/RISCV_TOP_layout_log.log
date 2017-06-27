@@ -1,0 +1,68 @@
+INFO: Reading User SDC file D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\constraint\RISCV_TOP_derived_constraints.sdc.
+
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\constraint\fp\user.pdc. 0 error(s) and 0 warning(s)
+Info:   I/O Bank Assigner detected (1) out of (8) I/O Bank(s) with locked I/O technologies.
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Placer V5.0 - 12.100.9 
+Design: RISCV_TOP                       Started: Tue Jun 27 16:03:34 2017
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering               : 17 seconds
+Placement                : 35 seconds
+Improvement              : 303 seconds
+
+Placer completed successfully.
+
+Design: RISCV_TOP                       
+Finished: Tue Jun 27 16:11:34 2017
+Total CPU Time:     00:08:30            Total Elapsed Time: 00:08:00
+Total Memory Usage: 1918.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\designer\RISCV_TOP\RISCV_TOPStarted: Tue Jun 27 16:12:43 2017
+
+
+Router completed successfully.
+
+Design: D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\designer\RISCV_TOP\RISCV_TOP
+Finished: Tue Jun 27 16:19:27 2017
+Total CPU Time:     00:03:38            Total Elapsed Time: 00:06:44
+Total Memory Usage: 4802.3 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 27
+  Worst minimum delay slack: -0.602 ns
+Resource Usage
++---------------+-------+--------+------------+
+| Type          | Used  | Total  | Percentage |
++---------------+-------+--------+------------+
+| 4LUT          | 29764 | 299544 | 9.94       |
+| DFF           | 24460 | 299544 | 8.17       |
+| I/O Register  | 0     | 1530   | 0.00       |
+| Logic Element | 30217 | 299544 | 10.09      |
++---------------+-------+--------+------------+
+

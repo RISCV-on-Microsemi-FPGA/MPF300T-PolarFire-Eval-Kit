@@ -1,0 +1,33 @@
+@P:  Worst Slack : 0.995
+@P:  CLK_50MHZ - Estimated Frequency : 390.2 MHz
+@P:  CLK_50MHZ - Requested Frequency : 50.0 MHz
+@P:  CLK_50MHZ - Estimated Period : 2.563
+@P:  CLK_50MHZ - Requested Period : 20.000
+@P:  CLK_50MHZ - Slack : 17.437
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Frequency : 184.5 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Period : 5.420
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Period : 10.000
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Slack : 2.290
+@P:  PF_CCC_0/pll_inst_0/OUT0 - Estimated Frequency : 107.1 MHz
+@P:  PF_CCC_0/pll_inst_0/OUT0 - Requested Frequency : 83.0 MHz
+@P:  PF_CCC_0/pll_inst_0/OUT0 - Estimated Period : 9.338
+@P:  PF_CCC_0/pll_inst_0/OUT0 - Requested Period : 12.048
+@P:  PF_CCC_0/pll_inst_0/OUT0 - Slack : 2.710
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Frequency : 124.8 MHz
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Period : 8.011
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Period : 10.000
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Slack : 0.995
+@P:  System - Estimated Frequency : 195.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 5.115
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 4.885
+@P: RISCV_TOP Part : pa5m300fbga896std
+@P: RISCV_TOP Register bits  : 4528 
+@P: RISCV_TOP DSP Blocks  : 2
+@P: RISCV_TOP I/O primitives : 10
+@P: RISCV_TOP RAM1K20 :  522
+@P: RISCV_TOP RAM64x12 :  89
+@P:  CPU Time : 0h:01m:15s

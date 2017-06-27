@@ -1,0 +1,10 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+PolarFire = //idm/captures/pc/12_100_9_13_juno/Designer/lib/modelsimpro/precompiled/vlog/PolarFire
+syncad_vhdl_lib = \\idm\captures\pc\12_100_9_13_juno\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

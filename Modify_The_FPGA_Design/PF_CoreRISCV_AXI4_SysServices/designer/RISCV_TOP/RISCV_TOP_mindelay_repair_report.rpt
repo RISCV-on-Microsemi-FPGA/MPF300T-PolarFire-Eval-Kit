@@ -1,0 +1,461 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths eligible for improvement: 27      
+ Total paths improved: 0       
+-------------------------
+
+Path 1
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[0]:ALn
+------------------------
+Path min-delay slack:      -602 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 2
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[7]:ALn
+------------------------
+Path min-delay slack:      -602 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 3
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[8]:ALn
+------------------------
+Path min-delay slack:      -602 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 4
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[9]:ALn
+------------------------
+Path min-delay slack:      -602 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 5
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[11]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 6
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[12]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 7
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[13]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 8
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[14]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 9
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[15]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 10
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[16]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 11
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[17]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 12
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[18]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 13
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[19]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 14
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[1]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 15
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[20]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 16
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[21]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 17
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[22]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 18
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[23]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 19
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[24]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 20
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[25]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 21
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[26]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 22
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[2]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 23
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[3]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 24
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[4]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 25
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[5]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 26
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[6]:ALn
+------------------------
+Path min-delay slack:      -601 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+Path 27
+------------------------
+From: reset_synchronizer_1/sync_asert_reg[1]:CLK
+  To: led_blink_0/count[10]:ALn
+------------------------
+Path min-delay slack:      -600 ps
+------------------------
+... None of the following nets could be modified:
+      PF_CCC_0/pll_inst_0_clkint_0
+      reset_synchronizer_1/sync_asert_reg[1]
+      PF_CCC_0/clkint_0_NET
+      PF_CCC_0/clkint_0/U0_Y
+      PF_CCC_0/clkint_0/U0_RGB1_RGB29_rgb_net_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_gbs_1
+      reset_synchronizer_1/sync_asert_reg_RNIFRMA[1]/U0_RGB1_RGB8_rgb_net_1
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+         - the sink and driving pins are placed in the same cluster.
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+
+
