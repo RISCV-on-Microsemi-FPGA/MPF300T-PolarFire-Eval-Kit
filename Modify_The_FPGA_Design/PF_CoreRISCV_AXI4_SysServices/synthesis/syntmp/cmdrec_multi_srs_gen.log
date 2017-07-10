@@ -1,7 +1,0 @@
-Z:\releases\production\Synopsys\Synplify\pc\synplify_L201609M-G5W_patch\bin64\syn_nfilter.exe  -link  -top  RISCV_TOP  -multisrs  D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synwork\RISCV_TOP_comp.srs  -osyn  D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synwork\RISCV_TOP_mult.srs  -log  D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synlog\RISCV_TOP_multi_srs_gen.srr 
-rc:0 success:1 runtime:7
-file:D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synwork\RISCV_TOP_comp.srs|io:i|time:1498558791|size:892227|exec:0
-file:D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synwork\RISCV_TOP_mult.srs|io:o|time:1498558798|size:6873|exec:0
-file:D:\exp\MPF300T-PolarFire-Eval-Kit\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_SysServices\synthesis\synlog\RISCV_TOP_multi_srs_gen.srr|io:o|time:1498558798|size:411|exec:0
-file:Z:\releases\production\Synopsys\Synplify\pc\synplify_L201609M-G5W_patch\bin\syn_nfilter.exe|io:i|time:1479402458|size:3128320|exec:1
-file:Z:\releases\production\Synopsys\Synplify\pc\synplify_L201609M-G5W_patch\bin64\syn_nfilter.exe|io:i|time:1479402724|size:4208128|exec:1
