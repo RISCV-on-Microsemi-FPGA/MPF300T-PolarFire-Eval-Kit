@@ -1,7 +1,7 @@
 # PolarFire Evaluation Kit RISC-V Designs
 Sample RISC-V Libero project(s) for the PolarFire (MPF300T) Evaluation Kit.
 
-This project contains Libero projects containing an FPGA design including a RISC-V RV32IM soft processor. Programming bitstreams are also included so that you do not need to run through the full FPGA design flow in order to start developping software for RISC-V.
+This project contains a Libero project containing an FPGA design including a RISC-V RV32IM soft processor. Programming bitstreams are also included so that you do not need to run through the full FPGA design flow in order to start developping software for RISC-V.
 
 ### Design Features
 The FPGA designs and their features are described below:
