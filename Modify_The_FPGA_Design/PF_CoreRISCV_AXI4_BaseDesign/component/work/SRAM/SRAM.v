@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Jun 13 14:29:13 2017
-// Version: PolarFire v1.1SP1 12.100.9.13
+// Created by SmartDesign Wed Jul 05 11:29:47 2017
+// Version: PolarFire v1.1SP1 12.100.9.14
 //////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 100ps
@@ -57,7 +57,7 @@ wire   [2:0]   HSIZE;
 wire   [1:0]   HTRANS;
 wire   [31:0]  HWDATA;
 wire           HWRITE;
-wire   [15:0]  COREAHBLSRAM_PF_0_mem_addr;
+wire   [17:0]  COREAHBLSRAM_PF_0_mem_addr;
 wire   [0:0]   COREAHBLSRAM_PF_0_mem_byteen0to0;
 wire   [1:1]   COREAHBLSRAM_PF_0_mem_byteen1to1;
 wire   [2:2]   COREAHBLSRAM_PF_0_mem_byteen2to2;
@@ -255,7 +255,7 @@ assign WBYTE_EN_net_0  = { COREAHBLSRAM_PF_0_mem_byteen3to3[3] , COREAHBLSRAM_PF
 //--------SRAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF   -   Actel:DirectCore:COREAHBLSRAM_PF:2.3.104
 SRAM_COREAHBLSRAM_PF_0_COREAHBLSRAM_PF #( 
         .FAMILY        ( 26 ),
-        .MEM_DEPTH     ( 65536 ),
+        .MEM_DEPTH     ( 262144 ),
         .SEL_SRAM_TYPE ( 0 ) )
 COREAHBLSRAM_PF_0(
         // Inputs
