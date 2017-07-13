@@ -20,9 +20,9 @@ Read Clock Edge                 : Rising
 Write Clock Edge                : Rising
 A_REN Polarity                  : None
 B_REN Polarity                  : None
-Write Depth                     : 65536
+Write Depth                     : 262144
 Write Width                     : 40
-Read Depth                      : 65536
+Read Depth                      : 262144
 Read Width                      : 40
 Portname DataIn                 : W_DATA
 Portname DataOut                : R_DATA
@@ -74,7 +74,7 @@ ACCESS_BUSY                     : Disabled
 Cascade Configuration: 
      Write Port configuration   : 16384x1
      Read Port configuration    : 16384x1
-     Number of blocks depth wise: 4
+     Number of blocks depth wise: 16
      Number of blocks width wise: 40
 
-Wrote Verilog netlist to C:\Users\ciaran.lappin\Desktop\Github\PF_MPF300T_ES_Advanced_Devlopment_Kit - Copy\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_BaseDesign\component\work\SRAM\PF_TPSRAM_AHB_AXI_0\\SRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v.
+Wrote Verilog netlist to D:\gh\MPF300T-PolarFire-Eval-Kit-master\MPF300T-PolarFire-Eval-Kit-master\Modify_The_FPGA_Design\PF_CoreRISCV_AXI4_BaseDesign\component\work\SRAM\PF_TPSRAM_AHB_AXI_0\\SRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v.
