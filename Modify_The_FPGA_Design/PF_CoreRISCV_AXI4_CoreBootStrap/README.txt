@@ -1,9 +1,10 @@
 ================================================================================
-        RISCV_BaseDesign for the IGLOO2 Creative Developement Board
+        RISCV_BaseDesign for the PolarFire Evaluation Kit
 ================================================================================
 
-This design is targeted at the IGLOO2 Creative Developement Board. It uses
+This design is targeted at the PolarFire Evaluation Kit. It uses
 the CoreRISCV_AXI4 as its soft processor.
+
 
 --------------------------------------------------------------------------------
     Memory map
