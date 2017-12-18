@@ -1,0 +1,28 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 17 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 5714 clock pin(s) of sequential element(s)
+0 instances converted, 5714 sequential instances remain driven by gated/generated clocks
+
+============================================================ Non-Gated/Non-Generated Clocks ============================================================
+Clock Tree ID     Driving Element                             Drive Element Type           Fanout     Sample Instance                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       JTAGDebug_0.JTAGDebug_0.genblk1.UJTAG_0     UJTAG                        16         JTAGDebug_0.JTAGDebug_0.genblk1.UJ_JTAG_0.pauselow
+@K:CKID0004       REF_CLK_0                                   clock definition on port     1          CCC_0.CCC_0.pll_inst_0                            
+========================================================================================================================================================
+============================================================================================================= Gated/Generated Clocks ==============================================================================================================
+Clock Tree ID     Driving Element                                            Drive Element Type     Fanout     Sample Instance                                          Explanation                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CCC_0.CCC_0.pll_inst_0                                     PLL                    5422       reset_synchronizer_0.sync_deasert_reg[1]                 Multiple clocks on generating sequential element from nets REF_CLK_0_c, GND
+@K:CKID0002       JTAGDebug_0.JTAGDebug_0.genblk1.UJ_JTAG_0.un1_duttck_0     CFG4                   292        MIV_RV32IMA_0.MIV_RV32IMA_0.ChiselTop0.dtm.skipOpReg     Clock conversion disabled                                                  
+===================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

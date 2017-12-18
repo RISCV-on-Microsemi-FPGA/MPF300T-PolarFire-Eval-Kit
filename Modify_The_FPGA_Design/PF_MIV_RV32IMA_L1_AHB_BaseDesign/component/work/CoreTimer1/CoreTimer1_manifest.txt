@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release PolarFire v2.0 (Version 12.200.0.20)
+
+Date      :  Mon Nov 27 10:08:56 2017
+Project   :  C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign
+Component :  CoreTimer1
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/ciaran.lappin/Desktop/MiV_Github/PF_MPF300T/Modify_The_FPGA_Design/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
+    C:/Users/ciaran.lappin/Desktop/MiV_Github/PF_MPF300T/Modify_The_FPGA_Design/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreTimer1/CoreTimer1.v
+

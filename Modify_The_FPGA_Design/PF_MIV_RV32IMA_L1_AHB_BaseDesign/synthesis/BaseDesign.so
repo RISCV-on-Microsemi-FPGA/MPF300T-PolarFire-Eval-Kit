@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>BaseDesign</design>
+	<target_verilog>C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\BaseDesign.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Component xmlns="http://actel.com/sweng/afi"><name>MIV_RV32IMA_L1_AHB</name><vendor>Microsemi</vendor><library>MiV</library><version>2.0.100</version><fileSets><fileSet fileSetId="HDL_FILESET"/></fileSets><hwModel><views><view><fileSetRef>HDL_FILESET</fileSetRef><name>HDL</name></view></views></hwModel></Component>

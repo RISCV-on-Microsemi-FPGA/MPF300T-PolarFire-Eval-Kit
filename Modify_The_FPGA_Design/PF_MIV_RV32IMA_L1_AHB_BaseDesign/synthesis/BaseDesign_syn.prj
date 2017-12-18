@@ -1,0 +1,246 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09M-SP1-4
+#--  Project file C:\Virtual Machines\UbuntuShare\git\Git\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\BaseDesign_syn.prj
+#--  Written on Fri Dec 15 15:16:32 2017
+
+
+#project files
+add_file -verilog "C:/Microsemi/Libero_SoC_PolarFire_v2.0/Designer/data/aPA5M/polarfire_syn_comps.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CCC/CCC_0/CCC_CCC_0_PF_CCC.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CCC/CCC.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.3.101/rtl/vlog/core/coreahblite_matrix4x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreAHBL/CoreAHBL_0/rtl/vlog/core/coreahblite.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreAHBL/CoreAHBL.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreAHBL1/CoreAHBL1_0/rtl/vlog/core/coreahblite.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreAHBL1/CoreAHBL1.v"
+add_file -verilog -lib COREAHBTOAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3_ahbtoapbsm.v"
+add_file -verilog -lib COREAHBTOAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3_apbaddrdata.v"
+add_file -verilog -lib COREAHBTOAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3_penablescheduler.v"
+add_file -verilog -lib COREAHBTOAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreAHB_APB3/CoreAHB_APB3.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreGPIO_0/CoreGPIO_0_0/rtl/vlog/core/coregpio.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreGPIO_0/CoreGPIO_0.v"
+add_file -verilog -lib CORETIMER_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreTimer0/CoreTimer0.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreTimer1/CoreTimer1.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb_0/rtl/vlog/core/Clock_gen.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb_0/rtl/vlog/core/Rx_async.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb_0/rtl/vlog/core/Tx_async.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb_0/rtl/vlog/core/fifo_256x8_g5.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb_0/rtl/vlog/core/CoreUART.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb_0/rtl/vlog/core/CoreUARTapb.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CoreUART_apb/CoreUART_apb.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/Core_APB3/Core_APB3.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/GPIO_OUT_0/GPIO_OUT_0_0/rtl/vlog/core/coregpio.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/GPIO_OUT_0/GPIO_OUT_0.v"
+add_file -verilog -lib COREJTAGDEBUG_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/2.0.100/rtl/vlog/core/corejtagdebug_uj_jtag.v"
+add_file -verilog -lib COREJTAGDEBUG_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/2.0.100/rtl/vlog/core/corejtagdebug.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/JTAGDebug/JTAGDebug.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/LSRAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_AHBLSramIf.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/LSRAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_SramCtrlIf.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/LSRAM/COREAHBLSRAM_PF_0/rtl/vlog/core/CoreAHBLSRAM_PF.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/LSRAM/PF_TPSRAM_AHB_AXI_0/LSRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/LSRAM/LSRAM.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_coreplex_local_interrupter_clint.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_capture_chain.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_capture_update_chain.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_capture_update_chain_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_jtag_bypass_chain.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_capture_update_chain_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_reset_reg.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_90.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_jtag_state_machine.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_negative_edge_latch.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_negative_edge_latch_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_jtag_tap_controller.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_debug_transport_module_jtag.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_int_xbar.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_int_xbar_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_int_xbar_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_int_xing.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_89.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_reset_catch_and_sync.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_int_xbar_int_xbar.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_int_xing_xing.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_amoalu.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_arbiter.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_arbiter_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_d_cache_data_array.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_pmp_checker.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tlb.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_d_cache_dcache.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_i_cache_icache.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_shift_queue.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tlb_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_frontend_frontend.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_hella_cache_arbiter.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_rr_arbiter.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_ptw.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_alu.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_breakpoint_unit.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_csr_file.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_rvc_expander.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_i_buf.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_mul_div.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_rocket.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_xbar_tile_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_rocket_tile_rocket.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_sync_rocket_tile_tile.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tlfifo_fixer_system_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_level_gateway.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_13.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tlplic_plic.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_atomic_automata.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_4.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_5.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_6.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_7.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_8.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_buffer_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_10.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_9.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_buffer_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_buffer_3.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_buffer_4.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_23.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_24.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_25.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_26.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_27.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_buffer_error.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_14.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_15.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_16.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_17.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_18.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_buffer_system_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_cache_cork.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_valid_sync_3.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_valid_sync_4.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_valid_sync_5.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_queue_sink_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_queue_sink_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_valid_sync.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_valid_sync_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_valid_sync_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_queue_source_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_async_crossing_sink.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_debug_module_inner_dm_inner.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_debug_module_inner_async_dm_inner.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_queue_source_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_dmi_to_tl_dmi2tl.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_queue_sink.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_queue_source.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_async_crossing_source_dm_inner.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_async_reset_reg_vec.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_debug_module_outer_dm_outer.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_xbar_dmi_xbar.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_debug_module_outer_async_dm_outer.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_debug_module_debug.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_21.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_22.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_error_error.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_filter.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_repeater.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_repeater_2.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_fragmenter_1.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_splitter_system_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_20.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_to_ahb.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_queue_19.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_to_ahb_converter.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_width_widget.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_width_widget_3.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_xbar_memory_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_xbar_periphery_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_tl_xbar_system_bus.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb_core_risc_vahb_top.v"
+add_file -verilog -lib CORERISCVRV32IMA_LIB "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA_0/rtl/vlog/core/miv_rv32ima_l1_ahb.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/MIV_RV32IMA/MIV_RV32IMA.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/hdl/reset_synchronizer.v"
+add_file -verilog "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/BaseDesign/BaseDesign.v"
+add_file -fpga_constraint "C:/Virtual Machines/UbuntuShare/git/Git/PF_MIV_RV32IMA_L1_AHB_BaseDesign/designer/BaseDesign/synthesis.fdc"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology PolarFire
+set_option -part MPF300T
+set_option -package FCG1152
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "BaseDesign"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 800
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 1
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Microsemi PolarFire
+set_option -rom_map_logic 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./BaseDesign.vm"
+impl -active "synthesis"

@@ -1,0 +1,4 @@
+CKID0001:@|S:CCC_0.CCC_0.pll_inst_0@|E:reset_synchronizer_0.sync_deasert_reg[1]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:JTAGDebug_0.JTAGDebug_0.genblk1.UJ_JTAG_0.un1_duttck_0@|E:MIV_RV32IMA_0.MIV_RV32IMA_0.ChiselTop0.dtm.skipOpReg@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:JTAGDebug_0.JTAGDebug_0.genblk1.UJTAG_0@|E:JTAGDebug_0.JTAGDebug_0.genblk1.UJ_JTAG_0.pauselow@|F:@syn_sample_clock_path1==CKID0003@|M:ClockId0003 
+CKID0004:@|S:REF_CLK_0@|E:CCC_0.CCC_0.pll_inst_0@|F:@syn_sample_clock_path1==CKID0004@|M:ClockId0004 

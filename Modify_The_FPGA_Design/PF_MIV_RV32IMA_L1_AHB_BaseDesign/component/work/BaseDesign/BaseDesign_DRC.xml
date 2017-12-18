@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>BaseDesign</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_PolarFire_v2.0\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MIV_RV32IMA_0:DRV_TDO</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/BaseDesign/pins/MIV_RV32IMA_0:DRV_TDO</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_PolarFire_v2.0\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MIV_RV32IMA_0:AHB_MST_MEM_HSEL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/BaseDesign/pins/MIV_RV32IMA_0:AHB_MST_MEM_HSEL</crossprobe>
+  </drc>
+</drcreport>
