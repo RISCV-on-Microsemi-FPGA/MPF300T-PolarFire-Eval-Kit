@@ -1,8 +1,0 @@
-C:\Microsemi\Libero_SoC_PolarFire_v2.0\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  BaseDesign  -multisrs  C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\synwork\BaseDesign_comp.srs  -osyn  C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\synwork\BaseDesign_mult.srs  -log  C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\synlog\BaseDesign_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_PolarFire_v2.0\SynplifyPro\bin64\syn_nfilter.exe -link -top BaseDesign -multisrs ..\synwork\BaseDesign_comp.srs -osyn ..\synwork\BaseDesign_mult.srs -log ..\synlog\BaseDesign_multi_srs_gen.srr
-rc:0 success:1 runtime:2
-file:..\synwork\BaseDesign_comp.srs|io:i|time:1513350872|size:704193|exec:0|csum:ACEF2B66B4F9BDBC8C58261BC79A8F69
-file:..\synwork\BaseDesign_mult.srs|io:o|time:1513350875|size:12430|exec:0|csum:
-file:..\synlog\BaseDesign_multi_srs_gen.srr|io:o|time:1513350875|size:411|exec:0|csum:
-file:..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_PolarFire_v2.0\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1502443878|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
-file:..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_PolarFire_v2.0\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1500977802|size:3947520|exec:1|csum:E1EE52C7DA876A01B82F39CCC39216FA
