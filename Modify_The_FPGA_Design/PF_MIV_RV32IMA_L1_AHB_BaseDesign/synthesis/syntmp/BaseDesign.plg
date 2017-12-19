@@ -1,0 +1,38 @@
+@P:  Worst Slack : 1.445
+@P:  CCC_0/CCC_0/pll_inst_0/OUT0 - Estimated Frequency : 87.6 MHz
+@P:  CCC_0/CCC_0/pll_inst_0/OUT0 - Requested Frequency : 50.0 MHz
+@P:  CCC_0/CCC_0/pll_inst_0/OUT0 - Estimated Period : 11.420
+@P:  CCC_0/CCC_0/pll_inst_0/OUT0 - Requested Period : 20.000
+@P:  CCC_0/CCC_0/pll_inst_0/OUT0 - Slack : 8.580
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Frequency : 177.7 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Period : 5.626
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Period : 10.000
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Slack : 2.187
+@P:  PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK - Estimated Frequency : NA
+@P:  PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK - Requested Frequency : 160.0 MHz
+@P:  PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK - Estimated Period : NA
+@P:  PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK - Requested Period : 6.250
+@P:  PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK - Slack : NA
+@P:  TCK - Estimated Frequency : NA
+@P:  TCK - Requested Frequency : 6.0 MHz
+@P:  TCK - Estimated Period : NA
+@P:  TCK - Requested Period : 166.670
+@P:  TCK - Slack : NA
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Frequency : 140.6 MHz
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Period : 7.110
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Period : 10.000
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Slack : 1.445
+@P:  System - Estimated Frequency : 201.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 4.963
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 5.037
+@P: BaseDesign Part : mpf300tfcg1152std
+@P: BaseDesign Register bits  : 5438 
+@P: BaseDesign DSP Blocks  : 2
+@P: BaseDesign I/O primitives : 19
+@P: BaseDesign RAM1K20 :  138
+@P: BaseDesign RAM64x12 :  6
+@P:  CPU Time : 0h:01m:36s

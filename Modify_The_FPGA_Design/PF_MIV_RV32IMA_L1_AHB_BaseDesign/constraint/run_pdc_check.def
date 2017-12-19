@@ -1,0 +1,7 @@
+DESIGN=BaseDesign
+DESDIR=C:\Users\hbreslin\Desktop\MPF300T-PolarFire-Eval-Kit-master\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\designer\BaseDesign
+TARGET_DIR=C:\Users\hbreslin\Desktop\MPF300T-PolarFire-Eval-Kit-master\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\designer\BaseDesign
+FAM=PolarFire
+DIE=PA5M300T_ES
+PACKAGE=fcg1152
+PDC_FILE=C:\Users\hbreslin\Desktop\MPF300T-PolarFire-Eval-Kit-master\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\constraint\io\user.pdc,,C:\Users\hbreslin\Desktop\MPF300T-PolarFire-Eval-Kit-master\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\constraint\fp\user.pdc,,
