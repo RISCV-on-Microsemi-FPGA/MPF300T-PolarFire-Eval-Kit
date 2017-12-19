@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release PolarFire v2.0 (Version 12.200.0.20)
+
+Date      :  Mon Dec 18 14:29:49 2017
+Project   :  C:\Users\hbreslin\Desktop\MPF300T-PolarFire-Eval-Kit-master\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign
+Component :  CCC
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/hbreslin/Desktop/MPF300T-PolarFire-Eval-Kit-master/Modify_The_FPGA_Design/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CCC/CCC.v
+    C:/Users/hbreslin/Desktop/MPF300T-PolarFire-Eval-Kit-master/Modify_The_FPGA_Design/PF_MIV_RV32IMA_L1_AHB_BaseDesign/component/work/CCC/CCC_0/CCC_CCC_0_PF_CCC.v
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\synlog\BaseDesign_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CCC_0/CCC_0/pll_inst_0/OUT0</data>
+<data>50.0 MHz</data>
+<data>87.6 MHz</data>
+<data>8.580</data>
+</row>
+<row>
+<data>COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>177.7 MHz</data>
+<data>2.187</data>
+</row>
+<row>
+<data>PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK</data>
+<data>160.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>TCK</data>
+<data>6.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>uj_jtag_85|un1_duttck_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>140.6 MHz</data>
+<data>1.445</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>201.5 MHz</data>
+<data>5.037</data>
+</row>
+</report_table>

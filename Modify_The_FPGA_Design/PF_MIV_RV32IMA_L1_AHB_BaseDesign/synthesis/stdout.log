@@ -1,0 +1,48 @@
+
+Starting:    C:\Microsemi\synplify_L201609M-G5W_patch\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\synplify_L201609M-G5W_patch
+Hostname:    DUBLTC0012
+Date:        Mon Nov 27 10:34:17 2017
+Version:     L-2016.09M-G5
+
+Arguments:   -product synplify_pro BaseDesign_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+Unrecognized part "MPF300T" specified for device "PolarFire" in BaseDesign_syn:synthesis
+TCL script complete: "BaseDesign_syn.tcl"
+New HDL Analyst: enabled
+Copied C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\BaseDesign.srr to C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\backup\BaseDesign.srr
+log file: "C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\BaseDesign.srr"
+Running: synthesis in foreground
+
+Running BaseDesign_syn|synthesis
+
+Running: compile (Compile) on BaseDesign_syn|synthesis
+# Mon Nov 27 10:34:26 2017
+
+Running: compile_flow (Compile Process) on BaseDesign_syn|synthesis
+# Mon Nov 27 10:34:26 2017
+
+Running: compiler (Compile Input) on BaseDesign_syn|synthesis
+# Mon Nov 27 10:34:26 2017
+compiler exited with errors
+Job failed on: BaseDesign_syn|synthesis
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\ciaran.lappin\Desktop\MiV_Github\PF_MPF300T\Modify_The_FPGA_Design\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\synlog\BaseDesign_compiler.srr"
+# Mon Nov 27 10:34:29 2017
+
+Return Code: 2
+Run Time:00h:00m:03s
+Complete: Compile Process on BaseDesign_syn|synthesis
+Complete: Compile on BaseDesign_syn|synthesis
+Complete: Logic Synthesis on BaseDesign_syn|synthesis
+exit status=2
+License checkin: synplifypro_actel

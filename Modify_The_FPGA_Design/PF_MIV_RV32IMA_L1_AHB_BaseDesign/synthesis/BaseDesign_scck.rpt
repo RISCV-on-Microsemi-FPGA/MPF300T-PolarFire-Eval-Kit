@@ -1,0 +1,33 @@
+# Synopsys Constraint Checker(syntax only), version mapact2016q4p1, Build 003R, built Sep 25 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Dec 19 10:04:09 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "BaseDesign"
+Constraint File(s):      "C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\PF_MIV_RV32IMA_L1_AHB_BaseDesign\designer\BaseDesign\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                         Requested     Requested     Clock                                                    Clock                   Clock
+Clock                                         Frequency     Period        Type                                                     Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+CCC_0/CCC_0/pll_inst_0/OUT0                   50.0 MHz      20.000        generated (from PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK)     default_clkgroup        5720 
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock     100.0 MHz     10.000        inferred                                                 Inferred_clkgroup_1     16   
+PF_OSC_0_0/PF_OSC_0_0/I_OSC_160/CLK           160.0 MHz     6.250         declared                                                 default_clkgroup        1    
+System                                        100.0 MHz     10.000        system                                                   system_clkgroup         0    
+TCK                                           6.0 MHz       166.670       declared                                                 default_clkgroup        0    
+uj_jtag_85|un1_duttck_inferred_clock          100.0 MHz     10.000        inferred                                                 Inferred_clkgroup_0     335  
+================================================================================================================================================================

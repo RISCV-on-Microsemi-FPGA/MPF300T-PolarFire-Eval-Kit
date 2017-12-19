@@ -1,0 +1,39 @@
+Software Version: 12.200.0.20
+creating folder: C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\MIV_RV32IMA_L1_AHB_BaseDesign
+Embedded FlashPro5 programmer detected.
+programmer 'E2001EJ7BN' : FlashPro5
+Created new project 'C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\MIV_RV32IMA_L1_AHB_BaseDesign\MIV_RV32IMA_L1_AHB_BaseDesign.pro'
+STAPL file 'C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\MIV_RV32IMA_L1_AHB_BaseDesign\MPF300T_ES_1.stp' has been loaded successfully.
+DESIGN : BaseDesign;  CHECKSUM : 75C5;  ALG_VERSION : 1
+creating folder: C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\MIV_RV32IMA_L1_AHB_BaseDesign\projectData
+Software Version: 12.200.0.20
+STAPL file 'C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\MIV_RV32IMA_L1_AHB_BaseDesign\MPF300T_ES_1.stp' has been loaded successfully.
+DESIGN : BaseDesign;  CHECKSUM : 75C5;  ALG_VERSION : 1
+Embedded FlashPro5 programmer detected.
+programmer 'E2001EJ7BN' : FlashPro5
+
+Created FlashPro Express Job Project.
+programmer 'E2001EJ7BN' : Scan Chain...
+Warning: programmer 'E2001EJ7BN' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E2001EJ7BN' : Check Chain...
+programmer 'E2001EJ7BN' : Scan and Check Chain PASSED.
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : Executing action PROGRAM
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT ISC_ENABLE_RESULT[32] = 00000000
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT CRCERR[1] = 0
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : Programming FPGA Array and sNVM...
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT BITS component bitstream digest[256] = e628346f15f57b0bb57f2a9a7ba39a841126caa067b4873fa03d218c2fd0001c
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT Fabric component bitstream digest[256] = 69964023cdf37232370e27e54548693268b210635086031b16fb87250f850b72
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT sNVM component bitstream digest[256] = 4e8dd8396a889d2e85e97b68d6ba17c98f2cbefcb51af0cc3b5d2a28925e961d
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT EOB component bitstream digest[256] = 0b925ea3cc4c1f104e1706107cd140c785d7a4bee043e5b0d9ff31afabe17cb7
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : ===================================================================================
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : EXPORT DSN[128] = 498d0a743b48b1fed16f35d4a861831d
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : ===================================================================================
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : Finished: Tue Dec 19 12:27:10 2017 (Elapsed time 00:01:37)
+programmer 'E2001EJ7BN' : device 'MPF300T_ES' : Executing action PROGRAM PASSED.
+programmer 'E2001EJ7BN' : Chain programming PASSED.
+Chain Programming Finished: Tue Dec 19 12:27:10 2017 (Elapsed time 00:01:37)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+  Synopsys, Inc.
+  Version L-2016.09M-SP1-4
+  Project file C:\Users\ciaran.lappin\Desktop\ExtHelp\Hugh\PF_MIV_RV32IMA_L1_AHB_BaseDesign\synthesis\syntmp\run_option.xml
+  Written on Tue Dec 19 10:03:14 2017
+
+
+--> 
+<project_attribute_list name="Project Settings"> 
+     <option name="project_name" display_name="Project Name">BaseDesign_syn</option>
+     <option name="device_name" display_name="Device Name">synthesis: Microsemi PolarFire : MPF300T</option>
+     <option name="impl_name" display_name="Implementation Name">synthesis</option>
+     <option name="top_module" display_name="Top Module">BaseDesign</option>
+     <option name="retiming" display_name="Retiming">0</option>
+     <option name="resource_sharing" display_name="Resource Sharing">1</option>
+     <option name="maxfan" display_name="Fanout Guide">10000</option>
+     <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
+     <option name="no_sequential_opt" display_name="Disable Sequential Optimizations">0</option>
+     <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
+</project_attribute_list>
+
